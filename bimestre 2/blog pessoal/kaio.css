@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(Sem\ nome\ \(Site\).png);
+}
+.logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 12px
+}
+
+
+
+
+.nome {
+    position: relative;
+    top: 100px;
+    left: 870px;
+    
+}
+
+.texto {
+    position: relative;
+    top: 100px;
+    left: 820px;   
+    
+}
+
+.eu {
+    position: absolute;
+    max-width: 600px;
+    max-height: 400px;
+    top: 100px;
+    left: 350px;
+    border-radius: 50px ;
+   
+}
+
+
+.header {
+    background-image: url(background.jpg);
+    padding: 4px;
+    text-align: center;
+}
+
+a, a:visited {
+    color: rgb(33, 53, 53);
+    padding: 25px 10px;
+}
+
+a:hover {
+    background-color: blueviolet;
+    padding: 2px 10px;
+
+}
+
+#wpp img {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 800px;
+    top: 350px;
+}
+
+#wpp p {
+    position: absolute;
+    left: 870px;
+    top: 370px;
+}
+
+#git img {
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 1000px;
+    top: 340px;
+
+}
+
+#git p {
+    position: absolute;
+    left: 1070px;
+    top: 370px;
+}

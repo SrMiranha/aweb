@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(1.png);
+}
+
+.card img {
+    width: 180px;
+    height: 180px;
+}
+.card {
+    background-color: #e2e2e2;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	margin: 20px;
+	width: 180px;
+    text-align: center;
+    z-index: 1;
+}
+
+.card:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+   z-index: 1s;
+   transition: 0.6s ease-in;
+   scale: 1.1;
+}
+#esc {
+    position: relative;
+    left: 200px;
+}
+
+#bat {
+    position: relative;
+    left: 200px;
+    top: 150px;
+}
+
+#viola{
+    position: relative;
+    left: 600px;
+   bottom: 300px;
+
+}
+
+#ing {
+    position: relative;
+    left: 1000px;
+    bottom: 380px;
+}
+
+#chico{
+    position: relative;
+    left: 1000px;
+    bottom: 1020px;
+}
